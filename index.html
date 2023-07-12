@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ticket Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Ticket Tracker</h1>
+
+  <div class="container">
+    <input id="ticketNumberInput" type="text" placeholder="Ticket Number">
+    <textarea id="ticketDetailsInput" placeholder="Enter ticket details..."></textarea>
+    <input type="file" id="fileInput">
+    <button onclick="addTicket()">Save</button>
+    <button onclick="cancelTicket()">Cancel</button>
+  </div>
+
+  <div id="ticketList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
